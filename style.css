@@ -1,0 +1,556 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* background-color: #f4f4f4; */
+}
+
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 107px;
+  margin: 100px;
+}
+
+div.left img {
+  width: 100%;
+}
+
+div.right {
+  display: grid;
+  /* gap: 20px; */
+}
+
+div.right h1 {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+div.right p {
+  width: 30rem;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+div.btn-group {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+}
+
+.btn-group .join {
+  font-size: 18px;
+  font-weight: bold;
+  /* padding: 21px 46px; */
+  height: 57px;
+  width: 164px;
+  border-radius: 200px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-group .join:hover {
+  border: 2px solid #000;
+  color: #000;
+  background-color: white;
+}
+
+.btn-group .donate {
+  font-size: 18px;
+  font-weight: bold;
+  width: 164px;
+  height: 57px;
+  background-color: transparent;
+  border-radius: 200px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-group .donate:hover {
+  color: white;
+  background-color: #000;
+}
+
+.garis {
+  width: 662px;
+  height: 1px;
+  background-color: black;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.right h2 {
+  font-weight: 500;
+  font-size: 34px;
+  margin-top: 17px;
+}
+
+/* about-us */
+.about {
+  margin: 100px;
+  padding: 100px 50px;
+  background-color: rgb(233, 233, 233);
+}
+
+.all-2 {
+  display: flex;
+  gap: 100px;
+  /* margin: 25px; */
+  justify-content: space-around;
+}
+
+/* .kiri {
+  display: flex;
+  flex-direction: column;
+} */
+
+.kiri button {
+  padding: 10px 36px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.kiri button:hover {
+  background-color: white;
+  color: black;
+}
+
+.kiri h2 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.kiri h1 {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.kanan {
+  width: 100;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: justify;
+}
+
+/* member benefit */
+.all-3 {
+  background-color: black;
+  color: white;
+  padding: 100px 0px;
+  width: 100%;
+}
+
+.top .up p {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.top .up h1 {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+p.text {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin: 0px 100px;
+}
+
+.top {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+/* desc member */
+.bottom {
+  margin: 0px 100px;
+}
+
+.all-4 {
+  margin-top: 84px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.one {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+}
+
+.one img {
+  padding-top: 1rem;
+}
+
+.one h1 {
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.p-1 h2 {
+  font-size: 36px;
+  font-weight: 600;
+  /* width: 500px; */
+}
+
+.p-1 p {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+  /* width: 500px; */
+}
+
+.two {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+}
+
+.two img {
+  padding-top: 1rem;
+}
+
+.two h1 {
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.p-2 h2 {
+  font-size: 36px;
+  font-weight: 600;
+  /* width: 500px; */
+}
+
+.p-2 p {
+  /* line-height: normal; */
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+  /* width: 500px; */
+}
+
+.text p {
+  display: flex;
+}
+
+.text-2 {
+  gap: 20px;
+}
+
+.three {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+}
+
+.three img {
+  padding-top: 1rem;
+}
+
+.three h1 {
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.p-3 h2 {
+  font-size: 36px;
+  font-weight: 600;
+  /* width: 500px; */
+}
+
+.p-3 p {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+  /* width: 500px; */
+}
+
+/* BLog Post */
+.all-5 {
+  padding: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.text-1 h1 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.text-1 p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px 100px;
+  text-align: center;
+}
+
+/* Blog cards */
+.card-1 {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  margin-top: 60px;
+}
+
+.card-1 img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.jarak {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.desc-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.desc-1 h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.desc-1 p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+/* Donation */
+
+.all-6 {
+  display: flex;
+  margin: 150px;
+}
+
+.title h3 {
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.title h1 {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.text-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+}
+
+.text-3 p {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.left button {
+  padding: 10px 36px;
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.left button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Promo */
+
+.all-7 {
+  width: 100%;
+  padding: 200px;
+  text-align: center;
+  background-image: url(assets/background.png);
+  background-size: cover;
+  margin: 100px 0px;
+}
+
+.all-7 h1 {
+  font-weight: 600;
+  font-size: 72px;
+  color: white;
+}
+
+.all-7 p {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.all-7 button {
+  padding: 15px 36px;
+  border-radius: 100px;
+  background-color: white;
+  border: none;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* FAQ */
+.all-8 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  margin: 250px;
+}
+
+.detail-all .one {
+  gap: 40px;
+}
+
+.detail-all {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.all-8 .title h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.all-8 .title p {
+  font-size: 18px;
+}
+
+.detail-one {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.detail-one-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: start;
+}
+
+.detail-one-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.detail-garis {
+  width: 5px;
+  height: 275px;
+  background-color: black;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.detail-garis-1 {
+  width: 3px;
+  height: 30px;
+  background-color: black;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.detail-all .two {
+  gap: 40px;
+}
+
+/* footer */
+.all-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 100px 0px;
+  background-color: black;
+  color: white;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.footer-top h1 {
+  font-size: 32px;
+}
+
+.list-footer p {
+  font-size: 16px;
+}
+
+.list-footer {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-bot {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 90px;
+}
+
+.footer-bot p {
+  font-size: 14px;
+}
+
+.footer-bot img {
+  width: 30px;
+  height: 30px;
+}
